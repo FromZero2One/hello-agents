@@ -48,7 +48,9 @@ class HelloAgentsLLM:
                 print(content, end="", flush=True)
                 collected_content.append(content)
             print()  # 在流式输出结束后换行
-            return "".join(collected_content)
+            result = "".join(collected_content)
+            # print("LLM响应: ", result)
+            return result
 
         except Exception as e:
             print(f"❌ 调用LLM API时发生错误: {e}")

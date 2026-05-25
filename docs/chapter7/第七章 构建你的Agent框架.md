@@ -98,7 +98,8 @@ hello-agents/
 ```bash
 # hello-agents 框架代码可见链接：https://github.com/jjyaoao/HelloAgents
 # Python 版本需要>=3.10
-pip install "hello-agents==0.1.1"
+# 注意 本地测试安装的0.2.1版本
+pip install "hello-agents==0.1.1"  
 ```
 
 本章的学习可以采用两种方式：

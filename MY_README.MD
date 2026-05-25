@@ -1,0 +1,5 @@
+- 第七章  agent
+    - 1 安装 hello-agents  pip install "hello-agents==0.2.1"    注意版本
+    - 2 修改配置文件.env 
+    - 3 启动测试 test_***.py
+- 第八章  2026-05-25  等6.1号有vpn了开始配置环境并运行脚本
